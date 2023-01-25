@@ -12,7 +12,7 @@ class Shape {
         console.log("Calculating area of shape");
     }
 }
-// export class using module.exports
-module.exports = Shape;
 const myShape = new Shape("red");
 console.log(myShape.color);
+// export class using module.exports
+module.exports = Shape;
