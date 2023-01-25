@@ -14,3 +14,4 @@ class Shape {
 }
 // export class using module.exports
 module.exports = Shape;
+const myShape = new Shape("red");
